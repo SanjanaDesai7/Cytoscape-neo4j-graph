@@ -295,7 +295,7 @@ class Cytomaster extends Component {
             <br/>
               Press Submit (click twice some issue)
             <br/>
-              Right click on visible node to see its children,parents and to analyse any node <br/>
+              Right click on visible node to see menu option to expand its children, parents and to analyse node. <br/>
               Click on node to see node number
             </span>
           </div>
