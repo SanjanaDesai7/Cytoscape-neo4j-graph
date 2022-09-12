@@ -1,0 +1,23 @@
+.label2 {
+  display: inline-block;
+  padding: 0px 0px 6px 0px;
+  width: 150px;
+  vertical-align: top;
+  font-weight: 500;
+  
+}
+.IDname{
+  margin: 10px 20px 20px 200px;
+ }
+ 
+.btn-outline-secondary {
+
+  background-color: #684b96 !important; 
+  border: none !important;
+  color: rgb(243, 242, 242) !important;
+  height: 22px !important;
+
+}
+.btn:hover{
+  background-color:#b7a4d6 !important;
+}

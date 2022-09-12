@@ -1,0 +1,128 @@
+{
+    "elements":{
+        "nodes":
+        [
+            {
+                "data":{
+                    "id":"Node_01",
+                    "displayLabel":"Node_01",
+                    "Description":"This is node 1",
+                    "Name":"Node1"
+                  
+                      }
+            },
+            {
+                "data":{
+                    "id":"Node_02",
+                    "displayLabel":"Node_02",
+                    "Description":"This is node 2",
+                     "Name":"Node2"
+                  
+                      }
+
+            },
+            {
+                "data":{
+                    "id":"Node_03",
+                    "displayLabel":"Node_03",
+                    "Description":"This is node 3",
+                     "Name":"Node3"
+                  
+                      }
+
+            },
+            {
+                "data":{
+                    "id":"Node_04",
+                    "displayLabel":"Node_04",
+                    "Description":"This is node 4",
+                     "Name":"Node4"
+                  
+                      }
+
+            },
+            {
+                "data":{
+                    "id":"Node_05",
+                    "displayLabel":"Node_05",
+                    "Description":"This is node 5",
+                     "Name":"Node5"
+                  
+                      }
+
+            }
+        ],
+        "edges":
+        [
+            {
+                "data":
+                {
+                    "id":"01",
+                    "source":"Node_01",
+                    "target":"Node_02",
+                    "type":"01-02",
+                    "displayHtml":"01-02"
+                }
+            },
+            {
+
+                "data":
+                {
+                    "id":"02",
+                    "source":"Node_01",
+                    "target":"Node_03",
+                    "type":"01-03",
+                    "displayHtml":"01-03"
+                }
+
+            },
+            {
+
+                "data":
+                {
+                    "id":"03",
+                    "source":"Node_01",
+                    "target":"Node_04",
+                    "type":"01-04",
+                    "displayHtml":"01-04"
+                }
+
+            },
+            {
+
+                "data":
+                {
+                    "id":"04",
+                    "source":"Node_03",
+                    "target":"Node_05",
+                    "type":"03-05",
+                    "displayHtml":"03-05"
+                }
+
+            }
+        ],        
+        "style":[
+        { 
+        "selector": "node",
+        "style": {
+        "width": "2.5px",
+        "height": "2.5px",
+        "font-family": "Nokia Pure Regular",
+        "background-opacity": "1",
+        "background-color":"yellow"
+        }
+       },
+        {
+        "selector": "edge",
+        "style": {
+            "curve-style": "bezier",
+            "target-arrow-shape": "triangle",
+            "line-color": "blue",
+            "font-size": "2px", 
+           "arrow-scale" :   "0.05em",    
+            "width": "0.08px"
+              }
+        }
+    ]
+    }
+}
